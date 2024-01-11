@@ -1,20 +1,22 @@
 package com.shubhans.socialclone.utils
 
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.ScaffoldState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.shubhans.socialclone.auth.prestation.register.RegisterScreen
 import com.shubhans.socialclone.domain.model.Post
+import com.shubhans.socialclone.feature_post.prestation.mainFeed.MainFeedScreen
 import com.shubhans.socialclone.prestation.logIn.LoginScreen
-import com.shubhans.socialclone.prestation.mainFeed.MainFeedScreen
 import com.shubhans.socialclone.prestation.post_details.PostDetailsScreen
 import com.shubhans.socialclone.prestation.splash.SplashScreen
-import com.shubhans.socialclone.prestation.register.RegisterScreen
 
 @Composable
 fun Navigation(navController: NavHostController,
+               scaffoldState: ScaffoldState
 ) {
     NavHost(
         navController = navController,
@@ -26,14 +28,14 @@ fun Navigation(navController: NavHostController,
         }
         composable(Screen.RegisterScreen.route) {
             RegisterScreen(
-                navController = navController
+                navController = navController,scaffoldState =scaffoldState
             )
         }
         composable(Screen.LoginScreen.route) {
             LoginScreen(navController = navController)
         }
         composable(Screen.MainFeedScreen.route) {
-            MainFeedScreen(navController = navController)
+            MainFeedScreen(navController = navController, scaffoldState = scaffoldState)
         }
 //        composable(Screen.ChatScreen.route) {
 //            ChatScreen(navController = navController)

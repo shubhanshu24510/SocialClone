@@ -63,4 +63,10 @@
     <string name="un_like">Unlike\n</string>
     <string name="li_ke">like\n</string>
     <string name="add_button">AddButton</string>
+    <string name="unknown_Error">Unknown Error</string>
+    <string name="sucess_register">Sucessfull Registered.</string>
+    <string name="error_could_not_found_server">Error could not be found on server.</string>
+    <string name="some_wrong">Something is wrong, please try again.</string>
+    <string name="Username">Username</string>
+    <string name="make_description">Create Description</string>
 </resources>

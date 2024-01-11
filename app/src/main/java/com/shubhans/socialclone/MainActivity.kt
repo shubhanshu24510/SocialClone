@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                             Screen.ActivityScreen.route
                         )
                     ) {
-                        Navigation(navController = navController)
+                        Navigation(navController = navController,scaffoldState =scaffoldState)
                     }
                 }
             }

@@ -1,6 +1,7 @@
 package com.shubhans.socialclone.utils
 
 object Constants {
+    const val PAGE_SIZE_POSTS = 20
     const val SPLASH_SCREEN_DURATION = 2000L
     const val MAX_POST_DESCRIPTION_LINES = 3
     const val MIN_USERNAME_LENGTH = 3
