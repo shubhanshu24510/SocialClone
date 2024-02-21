@@ -1,5 +1,5 @@
-Social Media Clone App
-Overview
+                                                     𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 𝘾𝙡𝙤𝙣𝙚 𝘼𝙥𝙥
+## 📲 Overview
 A platform that users can use for their social media stuff - like posting, messaging and connecting with friends easily.
 
 ## 📷 Previews
