@@ -38,7 +38,6 @@ A platform that users can use for their social media stuff - like posting, messa
 * [Kotlin Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)
 * [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization)
 * [Ktor client library](https://github.com/ktorio/ktor)
-* [Timber](com.jakewharton.timber:timber:4.2.0)
 * [Kotlin Coroutine](https://github.com/Kotlin/kotlinx.coroutines)
 * [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 * [Retrofit](https://square.github.io/retrofit/)
