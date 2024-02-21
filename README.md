@@ -1,4 +1,4 @@
-                                           Social Media Clone App
+Social Media Clone App
 Overview
 A platform that users can use for their social media stuff - like posting, messaging and connecting with friends easily.
 
