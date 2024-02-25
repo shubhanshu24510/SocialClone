@@ -64,8 +64,6 @@ Each layer has different responsibilities below. Basically, they follow [unidire
 
 The UI Layer consists of UI elements like buttons, menus, tabs that could interact with users and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) that holds app states and restores data when configuration changes.
 
-The UI Layer consists of UI elements like buttons, menus, tabs that could interact with users and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) that holds app states and restores data when configuration changes.
-
 ### Data Layer
 
 ![layer](figures/figure3.png)
