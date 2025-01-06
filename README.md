@@ -13,7 +13,7 @@ A platform that users can use for their social media stuff - like posting, messa
 
 </p>
 
-🚀 Key Features:
+### Key Features:
 - Responsive UI
 - Native Android App
 - Material Design Components
@@ -25,12 +25,11 @@ A platform that users can use for their social media stuff - like posting, messa
 -Search friends Stuff
 - Navigation Rail for Foldable Devices
 -Post picture features
-- Library
+### Library
 - Shimmer Loading Screen
 -Channel Details Screen
 -Connecting with Friends Features Like Follow and Following
 -Edit Profile Features
-- Top Categories
 
 ### Languages, libraries and tools used
 
