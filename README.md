@@ -1,6 +1,14 @@
-##  𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 𝘾𝙡𝙤𝙣𝙚 𝘼𝙥𝙥
-## 📲 Overview
-Social App with features like chat, posting, messaging, and friend connections.
+<h1 align="center">Social Twitch</h1>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
+  <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
+  <a href="https://github.com/skydoves/pokedex-compose/actions"><img alt="Build Status" src="https://github.com/skydoves/pokedex-compose/workflows/Android%20CI/badge.svg"/></a> <br>
+</p>
+
+<p align="center">  
+🗡️Social Twitch with features like chat, posting, messaging, and friend connections, demonstrates modern Android development with Jetpack Compose, Hilt, Ktor, Coroutines, Flow, Jetpack (Room, ViewModel), and Material Design based on MVVM architecture.
+</p>
 
 ## 📷 Previews
 ![1](https://github.com/shubhanshu24510/SocialClone/assets/100926922/a7be9795-0499-435d-9bf6-975089b977b8)
