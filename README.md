@@ -14,13 +14,6 @@
 ![1](https://github.com/shubhanshu24510/SocialClone/assets/100926922/a7be9795-0499-435d-9bf6-975089b977b8)
 ![2](https://github.com/shubhanshu24510/SocialClone/assets/100926922/05d6f366-b4e5-4fb2-8a32-453ddc56b001)
 
-<p align="center">
-  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
-  <a href="https://android-arsenal.com/api?level=24"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
-  <a href="https://github.com/skydoves/gemini-android/actions/workflows/android.yml"><img alt="Build Status" src="https://github.com/skydoves/gemini-android/actions/workflows/android.yml/badge.svg"/></a>
-
-</p>
-
 ### Key Features:
 
 - Responsive UI
