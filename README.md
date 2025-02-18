@@ -47,26 +47,46 @@ A platform that users can use for their social media stuff - like posting, messa
 The overall architecture is composed of two layers; UI Layer and the data layer. Each layer has dedicated components and they each have different responsibilities.
 The arrow means the component has a dependency on the target component following its direction.
 
+## Architecture
+**Social Clone** adheres to the MVVM architecture and implements the Repository pattern, aligning with [Google's official architecture guidance](https://developer.android.com/topic/architecture).
+
+![architecture](https://github.com/user-attachments/assets/09ca369a-968a-435e-bb89-f1856120bac5)
+
+The architecture of **Pokedex Jetpack** is structured into two distinct layers: the UI layer and the data layer. Each layer fulfills specific roles and responsibilities, outlined as follows:
+
+**Social Clone** follows the principles outlined in the [Guide to app architecture](https://developer.android.com/topic/architecture), making it an exemplary demonstration of architectural concepts in practical application.
+
 ### Architecture Overview
 
-![layer](figures/figure1.png)
+![architecture](https://github.com/user-attachments/assets/29f555f6-2339-40dc-899c-79835b0c7fb7)
 
-Each layer has different responsibilities below. Basically, they follow [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf).
+- Each layer adheres to the principles of [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf): the UI layer sends user events to the data layer, and the data layer provides data streams to other layers.
+- The data layer operates autonomously from other layers, maintaining purity without dependencies on external layers.
+
+This loosely coupled architecture enhances component reusability and app scalability, facilitating seamless development and maintenance.
 
 ### UI Layer
 
-![layer](figures/figure2.png)
+![architecture](https://github.com/user-attachments/assets/80d123e6-e72b-4ca8-998b-a9edec78ae19)
 
-The UI Layer consists of UI elements like buttons, menus, tabs that could interact with users and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) that holds app states and restores data when configuration changes.
+The UI layer encompasses UI elements responsible for configuring screens for user interaction, alongside the [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), which manages app states and restores data during configuration changes.
+- UI elements observe the data flow, ensuring synchronization with the underlying data layer.
 
 ### Data Layer
 
-![layer](figures/figure3.png)
+![architecture](https://github.com/user-attachments/assets/0bdebc42-69a1-41a2-ad8f-d57d3cbf9124)
 
-The data Layer consists of repositories, which include business logic, such as querying data from the local database and requesting remote data from the network. It is implemented as an offline-first source of business logic and follows the [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) principle.<br>
+The data layer is composed of repositories that handle business logic tasks such as retrieving data from a local database or fetching remote data from a network. This layer is designed to prioritize offline access, functioning primarily as an offline-first repository of business logic. It adheres to the principle of "single source of truth," ensuring that all data operations are centralized and consistent.<br>
 
-## 💯 MAD Score
+**Pokedex Compose** is an offline-first app, meaning it can perform all or most of its essential functions without an internet connection. This design allows users to access core features reliably, regardless of network availability, reducing their need for constant updates and decreasing data usage. For more details on how to build an offline-first application, you can visit [Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first).
 
-![summary](https://user-images.githubusercontent.com/24237865/158918011-bc766482-ec83-47dd-9237-d8a226cab263.png)
+## Modularization
 
+**Social Clone** adopted modularization strategies below:
 
+- **Reusability**: Modulizing reusable codes properly enable opportunities for code sharing and limits code accessibility in other modules at the same time.
+- **Parallel Building**: Each module can be run in parallel and it reduces the build time.
+- **Strict visibility control**: Modules restrict to expose dedicated components and access to other layers, so it prevents they're being used outside the module
+- **Decentralized focusing**: Each developer team can assign their dedicated module and they can focus on their own modules.
+
+For more information, check out the [Guide to Android app modularization](https://developer.android.com/topic/modularization).
